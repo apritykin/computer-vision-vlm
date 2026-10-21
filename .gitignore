@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environment overrides (QWEN_VL_MODEL, VLM_DEVICE, ...)
+.env
+
+# Downloaded model weights (re-downloaded automatically)
+*.pt
+*.onnx
+*.safetensors
+
+# Ultralytics output folder, if predictions are ever saved
+runs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

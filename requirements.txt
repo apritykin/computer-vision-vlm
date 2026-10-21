@@ -1,0 +1,12 @@
+# Webcam capture, drawing, and the app window
+opencv-python>=4.8
+numpy>=1.24
+pillow>=10.1
+
+# Object detection (YOLO). Downloads its weights automatically on first run.
+ultralytics>=8.3
+
+# Vision-language model (Qwen-VL), run locally with Hugging Face transformers.
+# Qwen3-VL needs transformers 4.57 or newer.
+torch>=2.4
+transformers>=4.57
